@@ -4,6 +4,7 @@
         "cblas_clinit.h": "c",
         "cblas.h": "c",
         "complex.h": "c",
-        "stddef.h": "c"
+        "stddef.h": "c",
+        "random": "c"
     }
 }

@@ -27,4 +27,9 @@ typedef struct {
     cblas_zswap
     cblas_zcopy
     cblas_zaxpy
+    cblas_sdsdot
+    cblas_sdot
+    cblas_ddot
+    cblas_dsdot
+    cblas_cdotu_sub
 ```
