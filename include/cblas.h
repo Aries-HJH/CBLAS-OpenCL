@@ -1,7 +1,6 @@
 #ifndef CBLAS_H
 #define CBLAS_H
 #include <stddef.h>
-
 /*
  * Enumerated and derived types
  */
@@ -16,6 +15,17 @@ enum CBLAS_SIDE {CblasLeft=141, CblasRight=142};
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/* complex define */
+typedef struct {  
+    double real; // 实部  
+    double imag; // 虚部  
+} dComplex; 
+
+typedef struct {  
+    float real; // 实部  
+    float imag; // 虚部  
+} fComplex; 
 
 /*
  * ===========================================================================
