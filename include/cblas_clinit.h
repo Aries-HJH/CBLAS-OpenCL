@@ -8,8 +8,11 @@ struct OpenCLInfo {
     cl_device_id cl_device;
     cl_context cl_ctx;
     cl_command_queue cl_cq;
+    cl_int cl_status;
+    cl_program cl_prog;
+    cl_kernel cl_kern;
 };
 
-void clblas_clinit();
+void cblas_clinit();
 
 #endif
