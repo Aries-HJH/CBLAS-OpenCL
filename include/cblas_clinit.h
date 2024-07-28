@@ -21,4 +21,7 @@ void cblas_run_2vec(const int N, void* X, const int incX, void* Y, const int inc
 void cblas_run_2vec_r(const int N, void* X, const int incX, void* Y, const int incY, void *res, cl_bool is_res_double,
                     cl_bool is_double, cl_bool is_complex, const void *alpha, const char *kernelSource, const char *name);
 
+void cblas_run_1vec(const int N, void* X, const int incX, cl_bool is_double, cl_bool is_complex, 
+                    const void *alpha, const char *kernelSource, const char *name);
+
 #endif

@@ -33,4 +33,10 @@ typedef struct {
     cblas_dsdot
     cblas_cdotu_sub
     cblas_cdotc_sub
+    cblas_zdotu_sub
+    cblas_zdotc_sub
+    cblas_cscal
+    cblas_dscal
+    cblas_sscal
+    cblas_zscal
 ```
