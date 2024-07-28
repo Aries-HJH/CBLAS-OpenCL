@@ -4,7 +4,7 @@
 
 int main() {
     cblas_clinit();
-    int N = 100;
+    int N = 1;
     fComplex *A = (fComplex *)malloc(sizeof(fComplex) * N);
     fComplex *B = (fComplex *)malloc(sizeof(fComplex) * N);
     // dComplex *A = (dComplex *)malloc(sizeof(dComplex) * N);
@@ -21,7 +21,7 @@ int main() {
         // B[i] = 2.0;
     }
 
-    cblas_cdotu_sub(N, (void *)A, 2, (void *)B, 2, (void *)&alpha);
+    cblas_cdotc_sub(N, (void *)A, 1, (void *)B, 1, (void *)&alpha);
     /*
     for (int i = 0; i < N; i++) {
         // printf("%f, %f ---- %f, %f\n", A[i].real, A[i].imag, B[i].real, B[i].imag);

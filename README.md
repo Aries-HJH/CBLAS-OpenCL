@@ -32,4 +32,5 @@ typedef struct {
     cblas_ddot
     cblas_dsdot
     cblas_cdotu_sub
+    cblas_cdotc_sub
 ```
