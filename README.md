@@ -39,4 +39,7 @@ typedef struct {
     cblas_dscal
     cblas_sscal
     cblas_zscal
+    cblas_zdscal
+    cblas_csscal
+    cblas_srotg
 ```
